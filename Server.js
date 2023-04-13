@@ -33,9 +33,9 @@ app.use("/api/v1", labelsRoutes);
 
 // --------------------------deployment------------------------------
 
-app.use(express.static(path.join(__dirname, "./Frontend/build")));
+app.use(express.static(path.join(__dirname, "./client/dist")));
 app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "./Frontend/build/index.html"));
+  res.sendFile(path.join(__dirname, "./client/dist/index.html"));
 });
 // --------------------------deployment------------------------------
 // Listener
