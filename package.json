@@ -2,9 +2,8 @@
   "name": "server",
   "version": "1.0.0",
   "description": "backend for moneytracker",
-   "main": "server.js",
+  "main": "server.js",
   "type": "module",
-
   "scripts": {
     "start": "node Server.js"
   },
@@ -15,5 +14,8 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "mongoose": "^7.0.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-import-meta": "^7.10.4"
   }
 }
