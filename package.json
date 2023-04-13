@@ -6,7 +6,7 @@
   "type": "module",
 
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node Server.js"
   },
   "author": "Manjeet Saini",
   "license": "ISC",
